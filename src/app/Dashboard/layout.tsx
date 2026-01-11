@@ -45,15 +45,16 @@ export default function DoctorLayout({ children }: DoctorLayoutProps) {
         {/* Logo + toggle */}
         <div className="flex items-center justify-between px-4 py-4 border-b border-gray-200">
           {desktopNavOpen && (
-            <div className="flex items-center space-x-2 m-2">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-                alt="Doctor Logo"
-                className="h-8 w-8 flex-shrink-0"
-              />
-              <h1 className="text-2xl font-bold text-blue-600">
-                Dashboard <br />
-              </h1>
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg">
+              <span className="text-white font-bold text-xl">L</span>
+            </div>
+            <h1 className="text-lg font-extrabold">
+              <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                LiverCare
+              </span>
+              <span className="text-gray-800"> AI</span>
+            </h1>
             </div>
           )}
           <button
