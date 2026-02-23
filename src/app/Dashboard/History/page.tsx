@@ -612,7 +612,7 @@ export default function LiverCancerPredictionForm() {
               </div>
 
               {/* Risk Level */}
-              <div
+              {/* <div
                 className={`rounded-xl shadow-md p-6 border-l-4 ${
                   result.risk_level === "High"
                     ? "bg-red-50 border-red-500"
@@ -651,7 +651,7 @@ export default function LiverCancerPredictionForm() {
                     ? "Regular monitoring and follow-up required"
                     : "Maintain routine check-ups"}
                 </p>
-              </div>
+              </div> */}
             </div>
 
             {/* Recommendation Box */}
